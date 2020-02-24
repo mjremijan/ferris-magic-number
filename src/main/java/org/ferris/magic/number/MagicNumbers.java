@@ -50,13 +50,13 @@ public class MagicNumbers extends SimpleFileVisitor<Path> {
             .stream()
             .sorted(Comparator.comparing(Major::getByte).reversed())
             .forEach(k -> {
-                    System.out.printf("%n%n+++ %d +++%n%n", k.getByte());
+                    System.out.printf("%n%n=== %d ===%n%n", k.getByte());
                     System.out.printf("    Count: %d%n%n", breakdown.get(k).size());
                     breakdown.get(k).forEach(m -> System.out.print(m.toString()));
                 }
             );
 
-        System.out.printf("%n%n+++ SUMMARY +++%n%n");
+        System.out.printf("%n%n=== SUMMARY ===%n%n");
 
         System.out.printf("    Different major version count: %d%n", breakdown.keySet().size());
 

@@ -1,4 +1,4 @@
-package org.thoth.magic.number;
+package org.ferris.magic.number;
 
 import java.util.Objects;
 

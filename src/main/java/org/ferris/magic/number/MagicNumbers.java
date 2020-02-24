@@ -1,4 +1,4 @@
-package org.thoth.magic.number;
+package org.ferris.magic.number;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;

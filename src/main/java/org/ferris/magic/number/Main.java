@@ -1,4 +1,4 @@
-package org.thoth.magic.number;
+package org.ferris.magic.number;
 
 import java.nio.file.Paths;
 
@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception
     {
-        System.out.printf("Welcome to Thoth Magic Number%n");
+        System.out.printf("Welcome to Ferris Magic Number%n");
 
         MagicNumbers.load(
             Paths.get("./src/test/resources")

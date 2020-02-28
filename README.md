@@ -1,10 +1,13 @@
 # Ferris Magic Number
 
-I wrote ferris-magic-number to find every `.class` file in a directory. While walking the entire directory tree,
-the major version byte value is read from the `.class` file "magic number" <https://en.wikipedia.org/wiki/Java_class_file#Magic_Number.> 
-and stored. A summary report is then generated which shows all the major Java versions used to compile the `.class` files and 
-how many `.class` files were compiled with that major Java version. I detailed report is also generated which lists every
-`.class` file under the major Java version used to compile it.
+I wrote ferris-magic-number becuase I needed to know what version of Java was used to compile all of the `.class` files in a directory.
+
+Update `Main.java` to point to a directory on your file system that contains a bunch of `.class` files. When executed, the application will walk
+the entire directory tree and determine the Java version used to compile every `.class` file it encounters. The application then
+generates two reports.
+
+# A summary report shows a count of `.class` files for each Java version found.
+# A detailed report lists every `.class` file for each Java version found.
 
 See <https://mjremijan.blogspot.com/2020/02/discovering-magic-version-number-of.html> for more details.
 

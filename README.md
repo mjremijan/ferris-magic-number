@@ -1,6 +1,6 @@
 # Ferris Magic Number
 
-I wrote ferris-magic-number becuase I needed to know what version of Java was used to compile all of the `.class` files in a directory.
+I wrote ferris-magic-number because I needed to know what version of Java was used to compile all of the `.class` files in a directory.
 
 Update `Main.java` to point to a directory on your file system that contains a bunch of `.class` files. When executed, the application will walk
 the entire directory tree and determine the Java version used to compile every `.class` file it encounters. The application then

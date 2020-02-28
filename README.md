@@ -6,8 +6,8 @@ Update `Main.java` to point to a directory on your file system that contains a b
 the entire directory tree and determine the Java version used to compile every `.class` file it encounters. The application then
 generates two reports.
 
-# A summary report shows a count of `.class` files for each Java version found.
-# A detailed report lists every `.class` file for each Java version found.
+1. A summary report shows a count of `.class` files for each Java version found.
+1. A detailed report lists every `.class` file for each Java version found.
 
 See <https://mjremijan.blogspot.com/2020/02/discovering-magic-version-number-of.html> for more details.
 
